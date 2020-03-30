@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body onclick = "casual()">
+  <div class="heading">
+    <h1>Convertitore</h1>
+      <div id="titeband">
+        <img class="bandiera" id=svizzera src="svizzera.png">
+        <h3 class="red">Franco <h3 class="tratto">-</h3> </h3><h3 class="blue">Euro</h3>
+        <img class="bandiera" id=europa src="europa.png">
+      </div>
+
+      <div id="input">
+        <input onclick="zero()" onchange="chfConverter()" id= "franco" class=inputstyle type="text" placeholder="1 CHF">
+        <input onclick="zero()" onchange="euroConverter()" id= "euro" class=inputstyle type="text" placeholder="0,94 EUR">
+      </div>
+
+   <br>
+
+   <button onclick="convert()">Converti!</button>
+   <p id="ciao"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
