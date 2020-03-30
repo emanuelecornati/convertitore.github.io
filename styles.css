@@ -63,6 +63,7 @@ button {
 }
 
 button {
+  outline: none;
   width: 25%;
   height: 50px;
   margin-top: 25px;
